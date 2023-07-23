@@ -1,4 +1,5 @@
-if _G.lwlflpllpwgpk ~= true and game.Players.LocalPlayer.Name == "14kBrxwlxX" then
+_G.lwlflpllpwgpk = true
+if _G.lwlflpllpwgpk ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
   local TextLabel = Instance.new("TextLabel")
