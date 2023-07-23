@@ -1,3 +1,4 @@
+_G.vsvavebbbb = true
 if _G.vsvavebbbb ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
