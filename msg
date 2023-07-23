@@ -1,5 +1,4 @@
-_G.vsvavebbbb = true
-if _G.vsvavebbbb ~= true then
+if _G.lwlflpllpwgpk ~= true and game.Players.LocalPlayer.Name == "14kBrxwlxX" then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
   local TextLabel = Instance.new("TextLabel")
@@ -21,12 +20,12 @@ if _G.vsvavebbbb ~= true then
   TextLabel.BorderSizePixel = 0
   TextLabel.Size = UDim2.new(0, 687, 0, 355)
   TextLabel.Font = Enum.Font.SourceSans
-  TextLabel.Text = "this is a test message just to see if msg still works - Deni210, Ruby Hub will collab with ProBaconHub very soon. (autodestroy in 10 seconds)"
+  TextLabel.Text = "boo!"
   TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
   TextLabel.TextScaled = true
   TextLabel.TextSize = 14.000
   TextLabel.TextWrapped = true
   task.wait(10)
   ScreenGui:Destroy()
-  _G.vsvavebbbb = true
+  _G.lwlflpllpwgpk = true
 end
