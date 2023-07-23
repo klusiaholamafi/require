@@ -1,0 +1,6 @@
+for i,v in next, getgc(true) do
+		if type(v) == "table" and rawget(v, "Damage") then
+			rawset(v, "MinAccuracy", 1) 
+			rawset(v, "MaxAccuracy", 1)
+		end
+	end
