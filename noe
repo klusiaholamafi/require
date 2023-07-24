@@ -1,9 +1,15 @@
-function _G.NoEWait()
+noetable = nil
+function NoE2Wait()
   for i,v in next, getgc(true) do
 			if type(v) == "table" and rawget(v, "ID") and rawget(v, "Seconds") then
 				if typeof(v.Seconds) == "number" then
 					rawset(v, "Seconds", 0.0001)
+					noetable = v
 				end
 			end
 		end
+end
+NoE2Wait()
+function _G.NoEWait()
+	rawset(noetable, "Seconds", 0.0001)
 end
