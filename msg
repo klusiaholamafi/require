@@ -1,4 +1,4 @@
-autodestroy = 181 -- seconds
+autodestroy = 180 -- seconds
 if _G.ppppp3p3p3p ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
