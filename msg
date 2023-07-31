@@ -1,4 +1,4 @@
-autodestroy = 60 -- seconds
+autodestroy = 180 -- seconds
 if _G.ppppp3p3p3p ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
@@ -21,13 +21,14 @@ if _G.ppppp3p3p3p ~= true then
   TextLabel.BorderSizePixel = 0
   TextLabel.Size = UDim2.new(0, 687, 0, 355)
   TextLabel.Font = Enum.Font.SourceSans
-  TextLabel.Text = "test msg"
+  TextLabel.Text = "cringel W fr"
   TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
   TextLabel.TextScaled = true
   TextLabel.TextSize = 14.000
   TextLabel.TextWrapped = true
   for i = 0, autodestroy, -1 do
     TextLabel.Text = "test msg (" .. tostring(i) .. ")"
+    task.wait(1)
   end
   ScreenGui:Destroy()
   _G.ppppp3p3p3p = true
