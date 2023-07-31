@@ -50,7 +50,7 @@ local Orion = Instance.new("ScreenGui")
 Orion.Name = "Orion"
 Orion.Parent = game.Players.LocalPlayer.PlayerGui
 function OrionLib:IsRunning()
-	return Orion.Parent == game:GetService("Players").PlayerGui
+	return Orion.Parent == game:GetService("Players").LocalPlayer.PlayerGui
 
 end
 
