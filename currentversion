@@ -1,4 +1,4 @@
-_G.currentversion = "beta v 1.0.0, ttjy my babygirl 😏"
+_G.currentversion = "0.2.0"
 _G.override = false
-_G.overridemessage = "the script has been detected and you get banned. discord copied"
+_G.overridemessage = "I"
 setclipboard(tostring("discord.gg/probaconhub"))
