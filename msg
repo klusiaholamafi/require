@@ -1,5 +1,5 @@
 autodestroy = 180 -- seconds
-if _G.ppppp3p3p3p ~= true then
+if _G.llll ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
   local TextLabel = Instance.new("TextLabel")
@@ -31,5 +31,5 @@ if _G.ppppp3p3p3p ~= true then
     task.wait(1)
   end
   ScreenGui:Destroy()
-  _G.ppppp3p3p3p = true
+  _G.llll = true
 end
