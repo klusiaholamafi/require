@@ -1,4 +1,3 @@
 _G.currentversion = "0.2.0"
 _G.override = false
 _G.overridemessage = "I"
-setclipboard(tostring("discord.gg/probaconhub"))
