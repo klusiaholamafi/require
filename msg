@@ -1,11 +1,12 @@
 autodestroy = 180 -- seconds
-if _G.llll ~= true then
+if _G.bbrb ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
   local TextLabel = Instance.new("TextLabel")
   ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
   ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-  
+  ScreenGui.ResetOnSpawn = false
+
   Frame.Parent = ScreenGui
   Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
   Frame.BackgroundTransparency = 1.000
@@ -21,15 +22,15 @@ if _G.llll ~= true then
   TextLabel.BorderSizePixel = 0
   TextLabel.Size = UDim2.new(0, 687, 0, 355)
   TextLabel.Font = Enum.Font.SourceSans
-  TextLabel.Text = "cringel W fr"
+  TextLabel.Text = "test msg"
   TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
   TextLabel.TextScaled = true
   TextLabel.TextSize = 14.000
   TextLabel.TextWrapped = true
-  for i = 0, autodestroy, -1 do
+  for i = autodestroy, 0, -1 do
     TextLabel.Text = "test msg (" .. tostring(i) .. ")"
     task.wait(1)
   end
   ScreenGui:Destroy()
-  _G.llll = true
+  _G.bbrb = true
 end
