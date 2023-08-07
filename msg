@@ -1,4 +1,6 @@
-_G.currentversion = 3.1
+_G.currentversion = 4
+spawn(function()
+_G.ebwebweibwiueb = true
 if _G.ebwebweibwiueb ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
@@ -28,9 +30,10 @@ if _G.ebwebweibwiueb ~= true then
   TextLabel.TextSize = 14.000
   TextLabel.TextWrapped = true
   for i = 60, 0, -1 do
-    TextLabel.Text = "amogus (" .. tostring(i) .. ")"
+    TextLabel.Text = "currentversion: " .. tostring(_G.currentversion) .. " (" .. tostring(i) .. ")"
     task.wait(1)
   end
   ScreenGui:Destroy()
   _G.ebwebweibwiueb = true
 end
+end)
