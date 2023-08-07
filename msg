@@ -1,4 +1,4 @@
-_G.currentversion = 4.0
+_G.currentversion = 3.0
 spawn(function()
 _G.ebwebweibwiueb = true
 if _G.ebwebweibwiueb ~= true then
