@@ -1,4 +1,4 @@
-_G.currentversion = 3.0
+_G.currentversion = 3.1
 if _G.ebwebweibwiueb ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
